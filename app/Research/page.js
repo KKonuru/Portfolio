@@ -56,13 +56,9 @@ export default function Research() {
                             </CardTitle>
                         </CardHeader>
                         <CardContent>
-                          
-                            As part of conducting this research, I am responsible for:
-                            <ul className="list-disc list-inside">
-                                <li>Developing ML models to predict the impact of disabling cuts</li>
-                                <li>Optimizing the ML models for performance</li>
-                                <li>Conducting experiments to evaluate the models</li>
-                            </ul>
+                          As part of this project, I am responsible for reviewing relevant literature to create plans for data collection and developing prediction models. To complete the data collections stage of the project, I am responsible for 
+                          writing scripts to run solvers on the hipergator to collect feature data. Then, I conduct experiments identifying relevant features and training and testing prediction models. To test the hypothesis of this project, I conduct analysis  
+                          of the models and evaluate the performance of the models.
                           
                         </CardContent>
                     </Card>
