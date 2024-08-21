@@ -14,7 +14,12 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-mediumm md:text-6xl">Kausthubh Konuru</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Computer Science student at the University of Florida</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-             Hello! I am a junior at the University of Florida majoring in Computer Science with a minor in Statistics and Mathematics. I am passionate about data science, machine learning, artifiical intelligence, 
+             Hello! I am a junior at the University of Florida majoring in Computer Science with a minor in Statistics and Mathematics. 
+             <br/>
+             I conduct research in the Department of Industrial Engineering under Dr. Aleksandr Kazachkov. I investigate the use of machine learning to 
+             enhance optimization solvers.
+             <br/>
+             I am passionate about data science, machine learning, artifiical intelligence, 
              and software development. Last summer I was a data science intern at Florida Blue. 
             </p>
           </div>
