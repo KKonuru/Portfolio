@@ -4,7 +4,7 @@ import {
     CardTitle,
     CardContent,
     CardDescription
-} from '@/components/ui/Card';
+} from '../../components/ui/card';
 
 export default function Research() {
     return (

@@ -4,8 +4,7 @@ import {
     CardTitle,
     CardContent,
     CardDescription
-} from '@/components/ui/Card';
-import { Button } from "@/components/ui/button";
+} from '../../components/ui/card';
 
 export default function CV() {
     return (
