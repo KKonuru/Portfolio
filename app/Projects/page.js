@@ -35,7 +35,10 @@ export default function Projects(){
                             <br/>
                             A simple image gallery built using Next.JS. It allows users to sign into their accounts, create albums, and upload images for those albums. It also displays public albums created by users.
                             <br/><br/>
-                            <div className="flex justify-left text-gray dark:text-white">
+                            
+
+                        </CardDescription>
+                        <div className="flex justify-left text-gray dark:text-white">
                                     <a 
                                         href="https://t3gallery-roan-two.vercel.app/"  
                                         target="_blank" 
@@ -53,8 +56,6 @@ export default function Projects(){
                                         <AiFillGithub className="ml-4 text-3xl" />
                                     </a>
                                 </div>
-
-                        </CardDescription>
                     </CardTitle>
                     <CardContent>
                         <div className="flex justify-center py-5">
@@ -85,7 +86,8 @@ export default function Projects(){
                             A computer vision project that classifies images of handwritten math symbols. It was tested on a set of 10 classes where it predicts one of the 10 symbols or unknown.
                             <br/><br/>
                             To read the full report on the project and to receive the source code, please contact me at the email below.
-                            <div className="flex justify-left text-gray dark:text-white">
+                        </CardDescription>
+                        <div className="flex justify-left text-gray dark:text-white">
                                     <a 
                                        href="mailto:kausthubhkonuru@ufl.edu"
                                        target="_blank" 
@@ -94,8 +96,7 @@ export default function Projects(){
                                    >
                                        <MdEmail className="text-3xl" />
                                    </a>
-                            </div>
-                        </CardDescription>
+                        </div>
                         
                     </CardTitle>
                     <CardContent>
@@ -117,15 +118,53 @@ export default function Projects(){
 
                 <Card className="p-5">
                     <CardTitle>
-                        CASSM 
+                        Formula 1 Dashboard 
                         <CardDescription>
-
+                        <br/>
+                            A dashboard that displays dynamic graphs and statistics for many Formula 1 seasons. Compare the driver's and teams performance over the years by using interactive plots of the gear shifts and speed at each race track.
+                            <br/><br/>
+                            To view the code and demo please visit the github repository.
                         </CardDescription>
+                        <div className="flex justify-left text-gray dark:text-white">
+                                    <a 
+                                        href="https://github.com/KKonuru/F1Stats" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer" 
+                                        aria-label="View on GitHub"
+                                    >
+                                        <AiFillGithub className="ml-4 text-3xl" />
+                                    </a>
+                                </div>
                     </CardTitle>
                     <CardContent>
-                    
+                    <div className="flex justify-center py-5">
+                        <video width="720" controls>
+                            <source src="/demo/F1-Dashboard-Demo.mp4" type="video/mp4" />
+                                 Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div className="flex justify-center py-5">
+                                <p>
+                                This project is a web-based dashboard that provides insights into Formula 1 racing statistics. The dashboard was built using Python, Flask, Plotly, and Dash. The data is scraped from the official Formula 1 website using Beautiful Soup. The driver data for each race
+                                is obtained from the FastF1 api. 
+                                The dashboard was built using Flask to serve the data and render interactive visualizations using Plotly and Dash. I used 
+                                Flask to define routes for the app to also serve bio data on each driver in addition to the dashboard. This bio data is scrapped using Beautiful Soup from the official Formula 1 website.
+                                It uses the FastF1 api to fetch the driver's speed and gear shifts over the race track. The data is then visualized using Plotly's interactive graphs.
+                                The dashboard includes features such as:
+                                <br/>
+                                - Interactive graphs showing driver and team performance over the season.
+                                <br/>
+                                - Dynamic filtering options to compare specific drivers or teams.
+                                <br/>
+                                - Visualizations of gear shifts, and speed at various tracks.
+                                <br/>
+                                The project demonstrates the integration of web scraping, data processing, and interactive visualization to create an engaging user experience.
+                                </p>
+                            </div>         
+                   
                     </CardContent>
                 </Card>
+                
             </div>
         </div>
     );
